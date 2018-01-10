@@ -39,6 +39,11 @@
           "type": "string"
         }
       }
+    },
+    "isLogin": {
+      "type": "identifier",
+      "selector": "#AdLoginButton",
+      "control": "exists"
     }
   },
   "connect": []
