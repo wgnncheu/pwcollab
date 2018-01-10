@@ -32,7 +32,7 @@
       },
       "selectorAll": {
         "fn": "",
-        "selectorAll": "//*[@id=\"navbar\"]/ul[1]/li[2]/a/text()"
+        "selectorAll": "a.dropdown-toggle.text()"
       },
       "frameSelector": [
         null
