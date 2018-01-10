@@ -31,7 +31,8 @@
       "label": "errorMessage",
       "update": {
         "type": "none"
-      }
+      },
+      "selector": "model.errorMessage"
     },
     "submit": {
       "type": "action",
