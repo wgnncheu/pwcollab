@@ -23,7 +23,8 @@
           "submit"
         ]
       },
-      "selector": "#password"
+      "selector": "#password",
+      "control": "text"
     },
     "errorMessage": {
       "type": "string",
