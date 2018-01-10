@@ -30,7 +30,7 @@
           }
         }
       },
-      "selectorAll": "li.class=[\"menu-item\"]",
+      "selectorAll": "li.menu-item",
       "frameSelector": [
         null
       ]
