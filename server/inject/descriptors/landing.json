@@ -4,8 +4,7 @@
     "isLanding": {
       "type": "identifier",
       "control": "exists",
-      "selector": "div",
-      "selectContains": "id=\"hideMenuIcon\""
+      "selector": "#hideMenuIcon"
     }
   },
   "connect": []
