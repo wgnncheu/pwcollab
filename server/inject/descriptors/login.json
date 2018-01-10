@@ -55,6 +55,11 @@
       "type": "identifier",
       "selector": "#AdLoginButton",
       "control": "exists"
+    },
+    "submitADFS": {
+      "type": "action",
+      "selector": ".btn.btn-primary",
+      "control": "action.button"
     }
   },
   "connect": [
