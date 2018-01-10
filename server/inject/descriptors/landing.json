@@ -23,7 +23,8 @@
                   "type": "action"
                 }
               }
-            }
+            },
+            "selectorAll": "li.a.flex-navbar"
           },
           "groupName": {
             "type": "string"
