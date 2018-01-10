@@ -4,7 +4,7 @@
     "isLanding": {
       "type": "identifier",
       "control": "exists",
-      "selector": "style=\"background-image*\""
+      "selector": "class=\"jumbotron hidden-sm hidden-xs\""
     }
   },
   "connect": []
