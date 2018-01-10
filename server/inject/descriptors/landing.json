@@ -38,7 +38,7 @@
     "logout": {
       "type": "action",
       "selector": ".a.href=[\"/Security/SignOut\"]",
-      "control": "action.link",
+      "control": "action.click",
       "selectHidden": true
     }
   },
