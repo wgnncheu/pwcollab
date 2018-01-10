@@ -32,7 +32,7 @@
       },
       "selectorAll": {
         "fn": "",
-        "selectorAll": "li"
+        "selectorAll": "li > a"
       },
       "frameSelector": [
         null
