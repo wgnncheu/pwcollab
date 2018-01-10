@@ -46,8 +46,8 @@
           "type": "string"
         }
       },
-      "selector": "button.btn.btn-primary",
-      "control": "attrib.onclick"
+      "selector": ".button",
+      "control": "action.click"
     },
     "isLogin": {
       "type": "identifier",
