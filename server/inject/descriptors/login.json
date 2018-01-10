@@ -46,9 +46,10 @@
           "type": "string"
         }
       },
-      "selector": ".btn.btn-primary",
+      "selector": "#AdLoginButton",
       "control": "action.click",
-      "selectContains": "Login"
+      "selectContains": "Login",
+      "selectIndex": 1
     },
     "isLogin": {
       "type": "identifier",
