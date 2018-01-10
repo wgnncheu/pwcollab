@@ -39,7 +39,8 @@
       "type": "action",
       "control": "action.link",
       "selector": "a",
-      "selectContains": "Sign Out"
+      "selectContains": "Sign Out",
+      "selectHidden": true
     }
   },
   "connect": [
