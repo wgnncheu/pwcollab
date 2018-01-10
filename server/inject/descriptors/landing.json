@@ -3,7 +3,7 @@
   "properties": {
     "isLanding": {
       "type": "identifier",
-      "selector": "#landing",
+      "selector": "#pwlanding",
       "control": "exists"
     }
   },
