@@ -3,8 +3,9 @@
   "properties": {
     "isLanding": {
       "type": "string",
-      "selector": "body",
-      "control": "property.innerText"
+      "control": "exists",
+      "selectContains": "/Content/images/Circle-Graphic-Pattern-black.jpg",
+      "selector": "background-image=\"/Content/images/Circle-Graphic-Pattern-black.jpg\""
     }
   },
   "connect": []
