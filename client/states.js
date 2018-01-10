@@ -42,5 +42,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.landing', {
+        views: {
+            app: {
+                controller: 'app_landing',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.landing');
+                }
+            }
+        }
     });
 });

@@ -27,6 +27,13 @@
       "sourceScreenId": "app.login.logincool",
       "sourceAppId": "universaltemplates",
       "model": "login"
+    },
+    {
+      "id": "landing",
+      "name": "landing",
+      "sourceScreenId": "app.slideoutmenu.sidemenucaptivating",
+      "sourceAppId": "universaltemplates",
+      "model": "landing"
     }
   ],
   "sourceAppId": "_blank",
