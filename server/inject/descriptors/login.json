@@ -33,7 +33,8 @@
         "type": "none"
       },
       "selector": "model.errorMessage",
-      "control": "property.innerText"
+      "control": "property.innerText",
+      "selectHidden": true
     },
     "submit": {
       "type": "action",
