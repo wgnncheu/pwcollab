@@ -3,9 +3,8 @@
   "properties": {
     "isLanding": {
       "type": "identifier",
-      "selector": "#hideMenuIcon",
-      "control": "exists",
-      "selectHidden": true
+      "selector": "#landing",
+      "control": "exists"
     }
   },
   "connect": []
