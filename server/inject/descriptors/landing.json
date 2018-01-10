@@ -27,7 +27,9 @@
             "selectorAll": "li.a.flex-navbar"
           },
           "groupName": {
-            "type": "string"
+            "type": "string",
+            "selector": "a.dropdown-toggle",
+            "control": "text"
           }
         }
       },
