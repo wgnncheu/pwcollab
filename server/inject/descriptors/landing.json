@@ -30,10 +30,7 @@
           }
         }
       },
-      "selectorAll": {
-        "fn": "",
-        "selectorAll": "li.class=[\"menu-item\"]"
-      },
+      "selectorAll": "li.class=[\"menu-item\"]",
       "frameSelector": [
         null
       ]
