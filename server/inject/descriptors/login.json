@@ -32,7 +32,8 @@
       "update": {
         "type": "none"
       },
-      "selector": "model.errorMessage"
+      "selector": "model.errorMessage",
+      "control": "property.innerText"
     },
     "submit": {
       "type": "action",
