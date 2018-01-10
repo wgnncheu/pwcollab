@@ -5,6 +5,34 @@
       "type": "identifier",
       "selector": "#pwlanding",
       "control": "exists"
+    },
+    "sideMenuGroups": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sideMenuItems": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "itemName": {
+                  "type": "string"
+                },
+                "action": {
+                  "type": "action"
+                }
+              }
+            }
+          },
+          "groupName": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "logout": {
+      "type": "action"
     }
   },
   "connect": []
