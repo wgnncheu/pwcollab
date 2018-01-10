@@ -7,5 +7,6 @@
       "control": "exists"
     }
   },
-  "connect": []
+  "connect": [],
+  "selectHidden": true
 }
