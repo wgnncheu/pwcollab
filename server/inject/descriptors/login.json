@@ -48,8 +48,7 @@
       },
       "selector": ".btn.btn-primary",
       "control": "action.click",
-      "selectContains": "Login",
-      "selectIndex": 2
+      "selectContains": "Login"
     },
     "isLogin": {
       "type": "identifier",
