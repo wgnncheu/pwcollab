@@ -32,7 +32,7 @@
       },
       "selectorAll": {
         "fn": "",
-        "selectorAll": "li > a"
+        "selectorAll": "li.class=[\"menu-item\"]"
       },
       "frameSelector": [
         null
