@@ -29,7 +29,14 @@
             "type": "string"
           }
         }
-      }
+      },
+      "selectorAll": {
+        "fn": "",
+        "selectorAll": "li.menu-item"
+      },
+      "frameSelector": [
+        null
+      ]
     },
     "logout": {
       "type": "action"
