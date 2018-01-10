@@ -38,8 +38,18 @@
     "logout": {
       "type": "action",
       "selector": ".a.href=[\"/Security/SignOut\"]",
-      "control": "action.link"
+      "control": "action.link",
+      "selectHidden": true
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isLanding"
+      ],
+      "screens": [
+        "landing"
+      ]
+    }
+  ]
 }
