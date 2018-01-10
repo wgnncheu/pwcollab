@@ -22,7 +22,8 @@
         "action": [
           "submit"
         ]
-      }
+      },
+      "selector": "#password"
     },
     "errorMessage": {
       "type": "string",
