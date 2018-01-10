@@ -45,7 +45,9 @@
         "password": {
           "type": "string"
         }
-      }
+      },
+      "selector": ".btn.btn-primary",
+      "control": "attrib.onclick"
     },
     "isLogin": {
       "type": "identifier",
