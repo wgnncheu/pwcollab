@@ -37,7 +37,7 @@
     },
     "logout": {
       "type": "action",
-      "control": "action.click",
+      "control": "action.link",
       "selector": "a",
       "selectContains": "Sign Out"
     }
