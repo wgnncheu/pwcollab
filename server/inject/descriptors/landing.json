@@ -4,7 +4,8 @@
     "isLanding": {
       "type": "identifier",
       "control": "exists",
-      "selector": "class=\"jumbotron hidden-sm hidden-xs\""
+      "selector": "div",
+      "selectHidden": true
     }
   },
   "connect": []
