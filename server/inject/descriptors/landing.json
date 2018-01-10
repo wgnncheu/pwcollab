@@ -2,7 +2,7 @@
   "type": "object",
   "properties": {
     "isLanding": {
-      "type": "identifier",
+      "type": "string",
       "selector": "#hideMenuIcon",
       "control": "exists"
     }
