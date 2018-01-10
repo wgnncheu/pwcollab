@@ -4,9 +4,9 @@
     "isLanding": {
       "type": "identifier",
       "selector": "#hideMenuIcon",
-      "control": "exists"
+      "control": "exists",
+      "selectHidden": true
     }
   },
-  "connect": [],
-  "selectHidden": true
+  "connect": []
 }
