@@ -4,7 +4,6 @@
     "isLanding": {
       "type": "string",
       "control": "exists",
-      "selectContains": "/Content/images/Circle-Graphic-Pattern-black.jpg",
       "selector": "background-image=\"/Content/images/Circle-Graphic-Pattern-black.jpg\""
     }
   },
