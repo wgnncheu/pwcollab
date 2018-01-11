@@ -18,7 +18,7 @@
           }
         }
       },
-      "selectorAll": "div#navbar > ul",
+      "selectorAll": "div#navbar",
       "frameSelector": [
         null
       ]
