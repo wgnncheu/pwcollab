@@ -21,8 +21,8 @@
         "properties": {
           "menuOption": {
             "type": "string",
-            "selector": "a",
-            "control": "action.link"
+            "selector": "li",
+            "control": "property.innerText"
           }
         }
       }
