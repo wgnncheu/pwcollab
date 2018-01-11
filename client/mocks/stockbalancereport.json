@@ -1,9 +1,8 @@
 {
- "isStockBalanceReport": true,
  "branch": {
   "selected": {
-   "label": "DBI United Arabic Emirates",
-   "value": "string:DBI"
+   "label": "ALU Zapopan, Jal.",
+   "value": "string:ALU"
   },
   "options": [
    {
