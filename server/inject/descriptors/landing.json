@@ -10,7 +10,13 @@
       "type": "array",
       "items": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "text": {
+            "type": "string",
+            "selector": "#navbar",
+            "control": "property.innerHTML"
+          }
+        }
       },
       "selectorAll": "div#navbar > ul",
       "frameSelector": [
