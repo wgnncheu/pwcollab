@@ -11,7 +11,7 @@
           "submit"
         ]
       },
-      "selector": "[name=\"serialNumber\"]"
+      "selector": "body"
     },
     "string2": {
       "type": "string",
@@ -129,6 +129,11 @@
     },
     "submit": {
       "type": "action"
+    },
+    "branch": {
+      "type": "select",
+      "selector": "body",
+      "control": "property.innerText"
     }
   },
   "connect": []
