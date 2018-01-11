@@ -2,5 +2,6 @@
   "menu.json",
   "login.json",
   "landing.json",
-  "searchcontrols.json"
+  "searchcontrols.json",
+  "stockbalancereport.json"
 ]

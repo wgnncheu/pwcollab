@@ -415,6 +415,9 @@
       },
       "submit": {
         "type": "action"
+      },
+      "isStockBalanceReport": {
+        "type": "action"
       }
     }
   }
