@@ -44,6 +44,11 @@
                         "type": "string",
                         "selector": "a",
                         "control": "property.innerText"
+                      },
+                      "action": {
+                        "type": "action",
+                        "selector": "a",
+                        "control": "action.link"
                       }
                     }
                   }
