@@ -132,7 +132,7 @@
       "type": "action"
     },
     "isStockBalanceReport": {
-      "type": "action",
+      "type": "identifier",
       "selector": "h2",
       "control": "exists"
     }
