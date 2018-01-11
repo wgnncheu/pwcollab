@@ -49,17 +49,34 @@
   "menu": {
     "type": "object",
     "properties": {
-      "sideMenuGroups": {
+      "logout": {
+        "type": "action"
+      },
+      "menuGroup": {
         "type": "array",
         "items": {
           "type": "object",
           "properties": {
-            "sideMenuItems": {
+            "subgroup": {
               "type": "array",
               "items": {
                 "type": "object",
                 "properties": {
-                  "itemName": {
+                  "childGroup": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "option": {
+                          "type": "string"
+                        },
+                        "action": {
+                          "type": "action"
+                        }
+                      }
+                    }
+                  },
+                  "option": {
                     "type": "string"
                   },
                   "action": {
@@ -67,21 +84,9 @@
                   }
                 }
               }
-            },
-            "groupName": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
             }
           }
-        },
-        "update": {
-          "type": "none"
         }
-      },
-      "logout": {
-        "type": "action"
       }
     }
   }
