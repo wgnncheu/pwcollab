@@ -25,7 +25,7 @@
           },
           "menuAction": {
             "type": "action",
-            "selector": "li > a",
+            "selector": "#navbar > li > a",
             "control": "action.link"
           },
           "menuSubgroup": {
