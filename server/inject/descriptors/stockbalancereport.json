@@ -124,13 +124,15 @@
         "action": [
           "submit"
         ]
-      }
+      },
+      "selector": "http",
+      "control": "url"
     },
     "submit": {
       "type": "action"
     },
     "isStockBalanceReport": {
-      "type": "action",
+      "type": "identifier",
       "selector": ".multiselect.dropdown-toggle.btn.btn-default",
       "control": "action.button"
     }
