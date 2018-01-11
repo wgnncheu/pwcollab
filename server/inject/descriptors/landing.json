@@ -26,7 +26,7 @@
               "properties": {
                 "subgroupOption": {
                   "type": "string",
-                  "selector": "#navbar > ul > li > a",
+                  "selector": "a",
                   "control": "property.innerText"
                 }
               }
