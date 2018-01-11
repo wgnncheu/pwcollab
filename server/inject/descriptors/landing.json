@@ -17,7 +17,7 @@
           }
         }
       },
-      "selectorAll": "#navbar > ul",
+      "selectorAll": "#navbar",
       "frameSelector": [
         null
       ]
