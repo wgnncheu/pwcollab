@@ -35,6 +35,13 @@
       "sourceScreenId": "app.categories.categoriescaptivating",
       "sourceAppId": "universaltemplates",
       "model": "landing"
+    },
+    {
+      "id": "searchcontrols",
+      "name": "searchcontrols",
+      "sourceScreenId": "app.formlarge.formlargecaptivating",
+      "sourceAppId": "universaltemplates",
+      "model": "searchcontrols"
     }
   ],
   "sourceAppId": "_blank",
