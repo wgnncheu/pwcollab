@@ -134,7 +134,7 @@
     "isStockBalanceReport": {
       "type": "identifier",
       "selector": "h2",
-      "control": "property.innerText",
+      "control": "exists",
       "selectContains": "Stock Balances Report"
     }
   },
