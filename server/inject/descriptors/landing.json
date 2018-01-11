@@ -15,7 +15,7 @@
     },
     "menuGroup": {
       "type": "array",
-      "selectorAll": "#navbar > ul",
+      "selectorAll": "#navbar",
       "items": {
         "type": "object",
         "properties": {}
