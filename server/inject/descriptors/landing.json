@@ -39,7 +39,13 @@
                   "selectorAll": "ul > li",
                   "items": {
                     "type": "object",
-                    "properties": {}
+                    "properties": {
+                      "option": {
+                        "type": "string",
+                        "selector": "a",
+                        "control": "action.link"
+                      }
+                    }
                   }
                 }
               }
