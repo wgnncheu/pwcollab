@@ -13,7 +13,7 @@
       "selectContains": "Sign Out",
       "selectHidden": true
     },
-    "text": {
+    "menuGroup": {
       "type": "array",
       "selectorAll": "#navbar > ul",
       "items": {
