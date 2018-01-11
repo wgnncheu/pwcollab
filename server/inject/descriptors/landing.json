@@ -34,7 +34,13 @@
             "selectorAll": "ul",
             "items": {
               "type": "object",
-              "properties": {}
+              "properties": {
+                "subgroupOption": {
+                  "type": "string",
+                  "selector": "a",
+                  "control": "property.innerHTML"
+                }
+              }
             }
           }
         }
