@@ -134,6 +134,36 @@
       "type": "select",
       "selector": "body",
       "control": "property.innerText"
+    },
+    "scodes": {
+      "type": "select",
+      "selector": ".multiselect.dropdown-toggle.btn.btn-default",
+      "control": "action.button"
+    },
+    "supgrp": {
+      "type": "string",
+      "selector": ".multiselect.dropdown-toggle.btn.btn-default",
+      "control": "action.button"
+    },
+    "reptyp": {
+      "type": "select",
+      "selector": ".multiselect.dropdown-toggle.btn.btn-default",
+      "control": "action.button"
+    },
+    "prdgrp": {
+      "type": "string",
+      "selector": ".multiselect.dropdown-toggle.btn.btn-default",
+      "control": "action.button"
+    },
+    "prtnum": {
+      "type": "string",
+      "selector": ".multiselect.dropdown-toggle.btn.btn-default",
+      "control": "action.button"
+    },
+    "palatr": {
+      "type": "select",
+      "selector": ".multiselect.dropdown-toggle.btn.btn-default",
+      "control": "action.button"
     }
   },
   "connect": []
