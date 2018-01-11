@@ -33,7 +33,7 @@
           "groupName": {
             "type": "string",
             "selector": "a.dropdown-toggle",
-            "control": "text"
+            "control": "property.innerText"
           }
         }
       },
