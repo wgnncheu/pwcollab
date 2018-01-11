@@ -11,26 +11,8 @@
       "items": {
         "type": "object",
         "properties": {
-          "sideMenuItems": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "itemName": {
-                  "type": "string",
-                  "control": "property.innerText"
-                },
-                "action": {
-                  "type": "action",
-                  "control": "action.link"
-                }
-              }
-            },
-            "selectorAll": "li"
-          },
           "groupName": {
             "type": "string",
-            "selector": "a.dropdown-toggle",
             "control": "property.innerText"
           }
         }
