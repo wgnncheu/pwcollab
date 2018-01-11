@@ -12,9 +12,8 @@
         "type": "object",
         "properties": {
           "text": {
-            "type": "object",
-            "selector": "ul > li",
-            "properties": {}
+            "type": "string",
+            "selector": "ul > li"
           }
         }
       },
