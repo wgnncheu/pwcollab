@@ -37,7 +37,7 @@
           }
         }
       },
-      "selectorAll": "li.menu-item",
+      "selectorAll": "#navbar",
       "frameSelector": [
         null
       ]
