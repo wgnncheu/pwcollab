@@ -143,8 +143,8 @@
     },
     "scodes": {
       "type": "select",
-      "selector": "h2",
-      "control": "property.innerText"
+      "selector": ".multiselect.dropdown-toggle.btn.btn-default",
+      "control": "select"
     }
   },
   "connect": [
