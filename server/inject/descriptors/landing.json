@@ -16,7 +16,7 @@
     "text": {
       "type": "string",
       "selector": "#navbar > ul:nth-child(1) > li.button > a",
-      "control": "action.link"
+      "control": "property.innerText"
     }
   },
   "connect": [
