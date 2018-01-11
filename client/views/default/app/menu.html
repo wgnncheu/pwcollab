@@ -8,13 +8,7 @@
             <div class="col" data-comp-id="column.1">
                 <div class="row" data-comp-id="row.2" ng-repeat="item in item.subgroup">
                     <div class="col" data-comp-id="column.2">
-                        <div data-comp-id="text.4" ng-bind="item.option">Some text</div>
-                        <div class="row" data-comp-id="row.3" ng-repeat="item in item.childGroup">
-                            <div class="col" data-comp-id="column.3">
-                                <button class="button button-block" data-comp-id="button.1"
-                                    ng-click="app.action('menu', 'menuGroup[item].subgroup[item].childGroup[item].action', this)">{{item.option}}</button>
-                            </div>
-                        </div>
+                        <div data-comp-id="text.2" ng-bind="item.option">Some text</div>
                     </div>
                 </div>
             </div>
@@ -22,12 +16,12 @@
         <ion-list data-comp-id="ionic-list.1">
             <div class="item ng-hide" data-comp-id="item.1" menu-close=""
                 ng-show="hasCordova || isCanvas">
-                <div data-comp-id="text.2">
+                <div data-comp-id="text.3">
                     Settings
                 </div>
             </div>
             <div class="item" data-comp-id="item.2" menu-close="" ng-click="app.logout()">
-                <div data-comp-id="text.3">
+                <div data-comp-id="text.4">
                     Logout
                 </div>
             </div>
