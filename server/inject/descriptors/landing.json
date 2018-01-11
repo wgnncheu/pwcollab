@@ -14,8 +14,7 @@
           "text": {
             "type": "object",
             "selector": "ul",
-            "properties": {},
-            "selectHidden": true
+            "properties": {}
           }
         }
       },
