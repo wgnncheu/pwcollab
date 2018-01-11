@@ -22,7 +22,6 @@
                 },
                 "action": {
                   "type": "action",
-                  "selector": ".flex-navbar",
                   "control": "action.link"
                 }
               }
