@@ -18,22 +18,12 @@
       "items": {
         "type": "object",
         "properties": {
-          "menuSubgroup": {
+          "subgroup": {
             "type": "array",
             "selectorAll": "li",
             "items": {
               "type": "object",
               "properties": {
-                "subgroupOption": {
-                  "type": "string",
-                  "selector": "a",
-                  "control": "property.innerText"
-                },
-                "subGroupAction": {
-                  "type": "action",
-                  "selector": "a",
-                  "control": "action.link"
-                },
                 "childGroup": {
                   "type": "array",
                   "selectorAll": "ul > li",
@@ -52,6 +42,16 @@
                       }
                     }
                   }
+                },
+                "option": {
+                  "type": "string",
+                  "selector": "a",
+                  "control": "property.innerText"
+                },
+                "action": {
+                  "type": "action",
+                  "selector": "a",
+                  "control": "action.link"
                 }
               }
             }
