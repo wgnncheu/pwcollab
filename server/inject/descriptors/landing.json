@@ -18,19 +18,9 @@
       "items": {
         "type": "object",
         "properties": {
-          "menuOption": {
-            "type": "string",
-            "selector": "#navbar > li > a",
-            "control": "property.innerText"
-          },
-          "menuAction": {
-            "type": "action",
-            "selector": "#navbar > li > a",
-            "control": "action.link"
-          },
           "menuSubgroup": {
             "type": "array",
-            "selectorAll": "#navbar > ul",
+            "selectorAll": "li",
             "items": {
               "type": "object",
               "properties": {
