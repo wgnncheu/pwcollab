@@ -135,5 +135,14 @@
       "type": "action"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isStockBalanceReport"
+      ],
+      "screens": [
+        "stockbalancereport"
+      ]
+    }
+  ]
 }
