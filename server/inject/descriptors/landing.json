@@ -37,8 +37,8 @@
               "properties": {
                 "subgroupOption": {
                   "type": "string",
-                  "selector": "a",
-                  "control": "property.innerHTML"
+                  "selector": "li > a",
+                  "control": "property.innerText"
                 }
               }
             }
