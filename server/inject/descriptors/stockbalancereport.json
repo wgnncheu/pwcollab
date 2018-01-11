@@ -133,8 +133,8 @@
     },
     "isStockBalanceReport": {
       "type": "identifier",
-      "selector": ".multiselect.dropdown-toggle.btn.btn-default",
-      "control": "action.button"
+      "selector": "http",
+      "control": "url"
     }
   },
   "connect": []
