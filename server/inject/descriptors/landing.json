@@ -43,7 +43,7 @@
                       "option": {
                         "type": "string",
                         "selector": "a",
-                        "control": "action.link"
+                        "control": "property.innerText"
                       }
                     }
                   }
