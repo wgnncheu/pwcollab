@@ -133,8 +133,9 @@
     },
     "isStockBalanceReport": {
       "type": "identifier",
-      "selector": "http",
-      "control": "url"
+      "selector": "h2",
+      "control": "property.innerText",
+      "selectContains": "Stock Balances Report"
     }
   },
   "connect": []
