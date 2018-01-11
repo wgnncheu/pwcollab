@@ -12,7 +12,7 @@
         "type": "object",
         "properties": {}
       },
-      "selectorAll": "#navbar > ul",
+      "selectorAll": "div#navbar > ul",
       "frameSelector": [
         null
       ]
