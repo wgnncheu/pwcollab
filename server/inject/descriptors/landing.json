@@ -12,9 +12,9 @@
         "type": "object",
         "properties": {
           "text": {
-            "type": "string",
-            "selector": "#navbar",
-            "control": "property.innerHTML"
+            "type": "object",
+            "selector": "ul",
+            "properties": {}
           }
         }
       },
