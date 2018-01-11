@@ -25,7 +25,8 @@
                   "control": "action.link"
                 }
               }
-            }
+            },
+            "selectorAll": "li"
           },
           "groupName": {
             "type": "string",
