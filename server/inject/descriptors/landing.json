@@ -6,23 +6,6 @@
       "selector": "#pwlanding",
       "control": "exists"
     },
-    "sideMenuGroups": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "text": {
-            "type": "string",
-            "selector": "ul > li",
-            "control": "property.innerText"
-          }
-        }
-      },
-      "selectorAll": "#navbar",
-      "frameSelector": [
-        null
-      ]
-    },
     "logout": {
       "type": "action",
       "control": "action.link",
