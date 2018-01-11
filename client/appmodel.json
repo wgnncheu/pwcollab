@@ -46,9 +46,8 @@
       }
     }
   },
-  "landing": {
+  "menu": {
     "type": "object",
-    "comment": "SlideOutMenu",
     "properties": {
       "sideMenuGroups": {
         "type": "array",
