@@ -51,5 +51,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.searchcontrol', {
+        views: {
+            app: {
+                controller: 'app_searchcontrol',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.searchcontrol');
+                }
+            }
+        }
     });
 });
