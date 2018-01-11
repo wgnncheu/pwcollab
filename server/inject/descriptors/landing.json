@@ -21,7 +21,7 @@
         "properties": {
           "menuOption": {
             "type": "string",
-            "selector": "li",
+            "selector": "li > a",
             "control": "property.innerText"
           }
         }
