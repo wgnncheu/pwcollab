@@ -61,14 +61,5 @@
       "selectorAll": "#navbar > ul"
     }
   },
-  "connect": [
-    {
-      "match": [
-        "isLanding"
-      ],
-      "screens": [
-        "landing"
-      ]
-    }
-  ]
+  "connect": []
 }
