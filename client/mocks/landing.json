@@ -1,32 +1,122 @@
 {
-  "sideMenuGroups": [
+ "menuGroup": [
+  {
+   "$i": 0,
+   "subgroup": [
     {
-      "groupName": "Menu Group - 1",
-      "sideMenuItems": [
-        {
-          "itemName": "Group 1 - Menu Option 1"
-        },
-        {
-          "itemName": "Group 1 - Menu Option 2"
-        },
-        {
-          "itemName": "Group 1 - Menu Option 3"
-        },
-        {
-          "itemName": "Group 1 - Menu Option 4"
-        }
-      ]
+     "$i": 0,
+     "childGroup": [],
+     "option": "Home"
     },
     {
-      "groupName": "Menu Group - 2",
-      "sideMenuItems": [
-        {
-          "itemName": "Group 2 - Menu Option 1"
-        },
-        {
-          "itemName": "Group 2 - Menu Option 2"
-        }
-      ]
+     "$i": 1,
+     "childGroup": [
+      {
+       "$i": 0,
+       "option": "Order View"
+      },
+      {
+       "$i": 1,
+       "option": "Inventory View"
+      },
+      {
+       "$i": 2,
+       "option": "Order Maintenance"
+      },
+      {
+       "$i": 3,
+       "option": "General Inventory Enquiry"
+      }
+     ],
+     "option": "Views"
+    },
+    {
+     "$i": 2,
+     "childGroup": [],
+     "option": "Order View"
+    },
+    {
+     "$i": 3,
+     "childGroup": [],
+     "option": "Inventory View"
+    },
+    {
+     "$i": 4,
+     "childGroup": [],
+     "option": "Order Maintenance"
+    },
+    {
+     "$i": 5,
+     "childGroup": [],
+     "option": "General Inventory Enquiry"
+    },
+    {
+     "$i": 6,
+     "childGroup": [],
+     "option": "VMI"
+    },
+    {
+     "$i": 7,
+     "childGroup": [],
+     "option": "Warehousing"
+    },
+    {
+     "$i": 8,
+     "childGroup": [],
+     "option": "ADMIN TESTING"
+    },
+    {
+     "$i": 9,
+     "childGroup": [],
+     "option": "FlexFlow"
+    },
+    {
+     "$i": 10,
+     "childGroup": [],
+     "option": "Nespresso"
+    },
+    {
+     "$i": 11,
+     "childGroup": [],
+     "option": "Dashboards"
+    },
+    {
+     "$i": 12,
+     "childGroup": [],
+     "option": "Baan"
+    },
+    {
+     "$i": 13,
+     "childGroup": [],
+     "option": "Philo"
+    },
+    {
+     "$i": 14,
+     "childGroup": [],
+     "option": "Nike"
+    },
+    {
+     "$i": 15,
+     "childGroup": [],
+     "option": "Lenovo"
     }
-  ]
+   ]
+  },
+  {
+   "$i": 1,
+   "subgroup": [
+    {
+     "$i": 0,
+     "childGroup": [],
+     "option": "1\n   "
+    },
+    {
+     "$i": 1,
+     "childGroup": [],
+     "option": ""
+    }
+   ]
+  }
+ ],
+ "isLanding": true
 }
