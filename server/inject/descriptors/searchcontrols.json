@@ -10,7 +10,8 @@
         "action": [
           "submit"
         ]
-      }
+      },
+      "selector": "[name=\"serialNumber\"]"
     },
     "string2": {
       "type": "string",
