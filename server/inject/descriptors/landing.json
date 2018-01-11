@@ -59,6 +59,31 @@
         }
       },
       "selectorAll": "#navbar > ul"
+    },
+    "sideMenuGroups": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sideMenuItems": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "itemName": {
+                  "type": "string"
+                },
+                "action": {
+                  "type": "action"
+                }
+              }
+            }
+          },
+          "groupName": {
+            "type": "string"
+          }
+        }
+      }
     }
   },
   "connect": [
