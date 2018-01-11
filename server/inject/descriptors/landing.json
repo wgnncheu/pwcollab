@@ -44,7 +44,7 @@
           }
         }
       },
-      "selectorAll": "#navbar"
+      "selectorAll": "#navbar > ul"
     }
   },
   "connect": [
