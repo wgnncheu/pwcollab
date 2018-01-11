@@ -33,6 +33,14 @@
                   "type": "action",
                   "selector": "a",
                   "control": "action.link"
+                },
+                "childGroup": {
+                  "type": "array",
+                  "selectorAll": "ul",
+                  "items": {
+                    "type": "object",
+                    "properties": {}
+                  }
                 }
               }
             }
