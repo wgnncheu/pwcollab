@@ -12,6 +12,11 @@
       "selector": "a",
       "selectContains": "Sign Out",
       "selectHidden": true
+    },
+    "text": {
+      "type": "string",
+      "selector": "#navbar > ul:nth-child(1) > li.button > a",
+      "control": "action.link"
     }
   },
   "connect": [
