@@ -37,7 +37,7 @@
           }
         }
       },
-      "selectorAll": "#navbar",
+      "selectorAll": "#navbar > ul",
       "frameSelector": [
         null
       ]
