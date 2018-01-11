@@ -22,7 +22,9 @@
                   "control": "text"
                 },
                 "action": {
-                  "type": "action"
+                  "type": "action",
+                  "selector": ".flex-navbar",
+                  "control": "action.link"
                 }
               }
             },
