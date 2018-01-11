@@ -33,8 +33,7 @@
         "type": "none"
       },
       "selector": ".alert.alert-danger.ng-binding",
-      "control": "property.innerText",
-      "selectHidden": true
+      "control": "property.innerText"
     },
     "submit": {
       "type": "action",
