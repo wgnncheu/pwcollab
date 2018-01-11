@@ -135,6 +135,16 @@
       "type": "identifier",
       "selector": "h2",
       "control": "exists"
+    },
+    "branch": {
+      "type": "select",
+      "selector": "h2",
+      "control": "property.innerText"
+    },
+    "scodes": {
+      "type": "select",
+      "selector": "h2",
+      "control": "property.innerText"
     }
   },
   "connect": [
