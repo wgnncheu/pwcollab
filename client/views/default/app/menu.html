@@ -6,8 +6,8 @@
     <ion-content class="has-header" data-comp-id="ionic-content.1">
         <ion-list data-comp-id="ionic-list.1">
             <div class="item ng-hide" data-comp-id="item.1" menu-close=""
-                ng-repeat="item in data.sideMenuGroups" ng-show="hasCordova || isCanvas">
-                <div data-comp-id="text.2">
+                ng-repeat="item in data.menuGroup" ng-show="hasCordova || isCanvas">
+                <div data-comp-id="text.2" ng-bind="item.subgroup">
                     Settings
                 </div>
             </div>
