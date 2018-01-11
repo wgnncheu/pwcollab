@@ -28,6 +28,14 @@
             "type": "action",
             "selector": "li > a",
             "control": "action.link"
+          },
+          "menuSubgroup": {
+            "type": "array",
+            "selectorAll": "ul",
+            "items": {
+              "type": "object",
+              "properties": {}
+            }
           }
         }
       }
