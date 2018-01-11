@@ -18,7 +18,13 @@
       "selectorAll": "#navbar",
       "items": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "menuOption": {
+            "type": "string",
+            "selector": "a",
+            "control": "action.link"
+          }
+        }
       }
     }
   },
