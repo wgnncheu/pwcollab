@@ -17,7 +17,9 @@
               "type": "object",
               "properties": {
                 "itemName": {
-                  "type": "string"
+                  "type": "string",
+                  "selector": ".flex-navbar",
+                  "control": "text"
                 },
                 "action": {
                   "type": "action"
