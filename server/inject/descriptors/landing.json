@@ -18,8 +18,7 @@
               "properties": {
                 "itemName": {
                   "type": "string",
-                  "selector": ".flex-navbar",
-                  "control": "text"
+                  "control": "property.innerText"
                 },
                 "action": {
                   "type": "action",
