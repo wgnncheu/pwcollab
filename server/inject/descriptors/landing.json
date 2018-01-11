@@ -14,9 +14,12 @@
       "selectHidden": true
     },
     "text": {
-      "type": "string",
-      "selector": "#navbar > ul:nth-child(1) > li.button > a",
-      "control": "property.innerText"
+      "type": "array",
+      "selectorAll": "#navbar > ul",
+      "items": {
+        "type": "object",
+        "properties": {}
+      }
     }
   },
   "connect": [
