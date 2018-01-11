@@ -74,6 +74,9 @@
                           "type": "action"
                         }
                       }
+                    },
+                    "update": {
+                      "type": "none"
                     }
                   },
                   "option": {
