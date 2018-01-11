@@ -60,5 +60,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.stockbalancereport', {
+        views: {
+            app: {
+                controller: 'app_stockbalancereport',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.stockbalancereport');
+                }
+            }
+        }
     });
 });

@@ -42,6 +42,13 @@
       "sourceScreenId": "app.formlarge.formlargecaptivating",
       "sourceAppId": "universaltemplates",
       "model": "searchcontrols"
+    },
+    {
+      "id": "stockbalancereport",
+      "name": "stockbalancereport",
+      "sourceScreenId": "app.formlarge.formlargecaptivating",
+      "sourceAppId": "universaltemplates",
+      "model": "stockbalancereport"
     }
   ],
   "sourceAppId": "_blank",
