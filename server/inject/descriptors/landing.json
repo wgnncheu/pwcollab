@@ -15,13 +15,12 @@
     },
     "menuGroup": {
       "type": "array",
-      "selectorAll": "#navbar",
       "items": {
         "type": "object",
         "properties": {
           "menuOption": {
             "type": "string",
-            "selector": "li > a",
+            "selector": "#navbar > li > a",
             "control": "property.innerText"
           },
           "menuAction": {
