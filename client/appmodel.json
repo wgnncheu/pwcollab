@@ -77,7 +77,10 @@
                     }
                   },
                   "option": {
-                    "type": "string"
+                    "type": "string",
+                    "update": {
+                      "type": "none"
+                    }
                   },
                   "action": {
                     "type": "action"

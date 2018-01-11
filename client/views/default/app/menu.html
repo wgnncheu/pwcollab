@@ -4,6 +4,15 @@
         <h1 class="title" data-comp-id="text.1">Menu</h1>
     </ion-header-bar>
     <ion-content class="has-header" data-comp-id="ionic-content.1">
+        <div class="row" data-comp-id="row.1" ng-repeat="item in data.menuGroup">
+            <div class="col" data-comp-id="column.1">
+                <div class="row" data-comp-id="row.2" ng-repeat="item in item.subgroup">
+                    <div class="col" data-comp-id="column.2">
+                        <div data-comp-id="text.4" ng-bind="item.option">Some text</div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <ion-list data-comp-id="ionic-list.1">
             <div class="item ng-hide" data-comp-id="item.1" menu-close=""
                 ng-show="hasCordova || isCanvas">
