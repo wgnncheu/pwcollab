@@ -134,7 +134,7 @@
     "isStockBalanceReport": {
       "type": "action",
       "selector": "h2",
-      "control": "property.innerText"
+      "control": "exists"
     }
   },
   "connect": [
