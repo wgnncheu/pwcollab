@@ -35,12 +35,6 @@
       "sourceScreenId": "app.slideoutmenu.sidemenucaptivating",
       "sourceAppId": "universaltemplates",
       "model": "landing"
-    },
-    {
-      "id": "menu",
-      "name": "menu",
-      "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank"
     }
   ],
   "sourceAppId": "_blank",
