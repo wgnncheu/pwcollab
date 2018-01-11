@@ -23,6 +23,11 @@
             "type": "string",
             "selector": "li > a",
             "control": "property.innerText"
+          },
+          "menuAction": {
+            "type": "action",
+            "selector": "li > a",
+            "control": "action.link"
           }
         }
       }
