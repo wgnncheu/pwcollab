@@ -30,7 +30,8 @@
     },
     "isLanding": {
       "type": "identifier",
-      "control": "action.button"
+      "control": "exists",
+      "selector": ".nav.nav-tabs"
     }
   },
   "connect": []
