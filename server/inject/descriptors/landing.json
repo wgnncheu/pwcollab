@@ -30,7 +30,7 @@
           },
           "menuSubgroup": {
             "type": "array",
-            "selectorAll": "ul",
+            "selectorAll": "#navbar > ul",
             "items": {
               "type": "object",
               "properties": {
