@@ -28,6 +28,13 @@
       "sourceScreenId": "app.login.logincool",
       "sourceAppId": "universaltemplates",
       "model": "login"
+    },
+    {
+      "id": "landing",
+      "name": "landing",
+      "sourceScreenId": "app.categories.categoriescaptivating",
+      "sourceAppId": "universaltemplates",
+      "model": "landing"
     }
   ],
   "sourceAppId": "_blank",

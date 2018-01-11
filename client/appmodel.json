@@ -104,5 +104,31 @@
         }
       }
     }
+  },
+  "landing": {
+    "type": "object",
+    "comment": "Categories",
+    "properties": {
+      "categories": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "categoryName": {
+              "type": "string"
+            },
+            "icon": {
+              "type": "string"
+            },
+            "image": {
+              "type": "string"
+            },
+            "action": {
+              "type": "action"
+            }
+          }
+        }
+      }
+    }
   }
 }
