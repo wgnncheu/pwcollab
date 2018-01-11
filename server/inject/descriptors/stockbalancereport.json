@@ -138,8 +138,8 @@
     },
     "branch": {
       "type": "select",
-      "selector": "h2",
-      "control": "property.innerText"
+      "selector": "[name=\"branch\"]",
+      "control": "select"
     },
     "scodes": {
       "type": "select",
