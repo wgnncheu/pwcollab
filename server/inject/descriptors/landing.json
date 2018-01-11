@@ -13,7 +13,8 @@
         "properties": {
           "text": {
             "type": "string",
-            "selector": "ul > li"
+            "selector": "ul > li",
+            "control": "property.innerText"
           }
         }
       },
