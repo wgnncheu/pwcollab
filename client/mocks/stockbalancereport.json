@@ -1,18 +1,251 @@
 {
-  "radioData": {
-    "selected": {
-      "label": "Radio 1",
-      "value": 1
-    },
-    "options": [
-      {
-        "label": "Radio 1",
-        "value": 1
-      },
-      {
-        "label": "Radio 2",
-        "value": 2
-      }
-    ]
-  }
+ "isStockBalanceReport": true,
+ "branch": {
+  "selected": {
+   "label": "DBI United Arabic Emirates",
+   "value": "string:DBI"
+  },
+  "options": [
+   {
+    "label": "ALU Zapopan, Jal.",
+    "value": "string:ALU"
+   },
+   {
+    "label": "AUS Texas",
+    "value": "string:AUS"
+   },
+   {
+    "label": "BKR JOHOR DARUL TAKZIM",
+    "value": "string:BKR"
+   },
+   {
+    "label": "BRS Warrington",
+    "value": "string:BRS"
+   },
+   {
+    "label": "BUD Hungary",
+    "value": "string:BUD"
+   },
+   {
+    "label": "CHN C/O Doumen Zhuhai",
+    "value": "string:CHN"
+   },
+   {
+    "label": "COR Dublin Hill,",
+    "value": "string:COR"
+   },
+   {
+    "label": "DBI United Arabic Emirates",
+    "value": "string:DBI"
+   },
+   {
+    "label": "DGN GuangDong",
+    "value": "string:DGN"
+   },
+   {
+    "label": "DMB Doumen Zhuhai",
+    "value": "string:DMB"
+   },
+   {
+    "label": "DMC Doumen Zhuhai",
+    "value": "string:DMC"
+   },
+   {
+    "label": "DME Doumen Zhuhai",
+    "value": "string:DME"
+   },
+   {
+    "label": "DMH Doumen Zhuhai",
+    "value": "string:DMH"
+   },
+   {
+    "label": "DMJ Doumen Zhuhai",
+    "value": "string:DMJ"
+   },
+   {
+    "label": "DMK Doumen Zhuhai",
+    "value": "string:DMK"
+   },
+   {
+    "label": "DMM Doumen Zhuhai",
+    "value": "string:DMM"
+   },
+   {
+    "label": "DMN Doumen Zhuhai",
+    "value": "string:DMN"
+   },
+   {
+    "label": "DMP Doumen Zhuhai",
+    "value": "string:DMP"
+   },
+   {
+    "label": "DMS Doumen Zhuhai",
+    "value": "string:DMS"
+   },
+   {
+    "label": "DMT Doumen Zhuhai",
+    "value": "string:DMT"
+   },
+   {
+    "label": "DUB Ballycoolin Rd, Blanchardstown,",
+    "value": "string:DUB"
+   },
+   {
+    "label": "EDM JOHOR DARUL TAKZIM",
+    "value": "string:EDM"
+   },
+   {
+    "label": "HUN Hungary",
+    "value": "string:HUN"
+   },
+   {
+    "label": "IST ",
+    "value": "string:IST"
+   },
+   {
+    "label": "LIM Limerick, V94 R3KW",
+    "value": "string:LIM"
+   },
+   {
+    "label": "LOD Poland",
+    "value": "string:LOD"
+   },
+   {
+    "label": "LVL ",
+    "value": "string:LVL"
+   },
+   {
+    "label": "MAL Johor",
+    "value": "string:MAL"
+   },
+   {
+    "label": "MEM ",
+    "value": "string:MEM"
+   },
+   {
+    "label": "MEX Zapopan, Jal.",
+    "value": "string:MEX"
+   },
+   {
+    "label": "MIL 26867, Somaglia (Lodi)",
+    "value": "string:MIL"
+   },
+   {
+    "label": "MPS ",
+    "value": "string:MPS"
+   },
+   {
+    "label": "MST Doumen Zhuhai",
+    "value": "string:MST"
+   },
+   {
+    "label": "NAN Nanjing Jiangsu",
+    "value": "string:NAN"
+   },
+   {
+    "label": "PAI Warrington",
+    "value": "string:PAI"
+   },
+   {
+    "label": "POL Poland",
+    "value": "string:POL"
+   },
+   {
+    "label": "PRD Czech Republic",
+    "value": "string:PRD"
+   },
+   {
+    "label": "PTJ JOHOR DARUL TAKZIM",
+    "value": "string:PTJ"
+   },
+   {
+    "label": "PTP JOHOR DARUL TAKZIM",
+    "value": "string:PTP"
+   },
+   {
+    "label": "QDG GUANG DONG",
+    "value": "string:QDG"
+   },
+   {
+    "label": "SAR Hungary",
+    "value": "string:SAR"
+   },
+   {
+    "label": "SEN ",
+    "value": "string:SEN"
+   },
+   {
+    "label": "SHA Shanghai",
+    "value": "string:SHA"
+   },
+   {
+    "label": "SIN Singapore 486123",
+    "value": "string:SIN"
+   },
+   {
+    "label": "SNA Johor",
+    "value": "string:SNA"
+   },
+   {
+    "label": "SWI Swindon",
+    "value": "string:SWI"
+   },
+   {
+    "label": "SZF  Xixiang",
+    "value": "string:SZF"
+   },
+   {
+    "label": "SZL  Xixiang",
+    "value": "string:SZL"
+   },
+   {
+    "label": "SZV XIXIANG",
+    "value": "string:SZV"
+   },
+   {
+    "label": "SZX  Xixiang",
+    "value": "string:SZX"
+   },
+   {
+    "label": "SZY Xixiang",
+    "value": "string:SZY"
+   },
+   {
+    "label": "SZZ Xixiang",
+    "value": "string:SZZ"
+   },
+   {
+    "label": "TAB ",
+    "value": "string:TAB"
+   },
+   {
+    "label": "TKY Turkey",
+    "value": "string:TKY"
+   },
+   {
+    "label": "TYJ 81200 Johor Bahru, Johor",
+    "value": "string:TYJ"
+   },
+   {
+    "label": "VEN Netherlands",
+    "value": "string:VEN"
+   },
+   {
+    "label": "VRY Netherlands",
+    "value": "string:VRY"
+   },
+   {
+    "label": "WHM Johor",
+    "value": "string:WHM"
+   },
+   {
+    "label": "WUN Suzhou",
+    "value": "string:WUN"
+   },
+   {
+    "label": "WUZ Suzhou",
+    "value": "string:WUZ"
+   }
+  ]
+ }
 }
