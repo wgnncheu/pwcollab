@@ -36,7 +36,7 @@
                 },
                 "childGroup": {
                   "type": "array",
-                  "selectorAll": "ul",
+                  "selectorAll": "ul > li",
                   "items": {
                     "type": "object",
                     "properties": {}
