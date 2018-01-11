@@ -261,6 +261,27 @@
       },
       "submit": {
         "type": "action"
+      },
+      "branch": {
+        "type": "select"
+      },
+      "scodes": {
+        "type": "select"
+      },
+      "supgrp": {
+        "type": "string"
+      },
+      "reptyp": {
+        "type": "select"
+      },
+      "prdgrp": {
+        "type": "string"
+      },
+      "prtnum": {
+        "type": "string"
+      },
+      "palatr": {
+        "type": "select"
       }
     }
   },
