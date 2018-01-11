@@ -1,0 +1,29 @@
+{
+  "type": "object",
+  "comment": "Categories",
+  "properties": {
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "categoryName": {
+            "type": "string",
+            "selector": ".col-lg-3.col-md-6.col-sm-6.col-xs-12.centre.grow"
+          },
+          "icon": {
+            "type": "string"
+          },
+          "image": {
+            "type": "string"
+          },
+          "action": {
+            "type": "action"
+          }
+        }
+      },
+      "selectorAll": ".col-lg-3.col-md-6.col-sm-6.col-xs-12.centre.grow"
+    }
+  },
+  "connect": []
+}
