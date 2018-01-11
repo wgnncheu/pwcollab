@@ -418,6 +418,12 @@
       },
       "isStockBalanceReport": {
         "type": "action"
+      },
+      "branch": {
+        "type": "select"
+      },
+      "scodes": {
+        "type": "select"
       }
     }
   }
