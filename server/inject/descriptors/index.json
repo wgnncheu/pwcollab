@@ -1,7 +1,7 @@
 [
   "menu.json",
-  "login.json",
   "landing.json",
   "searchcontrols.json",
-  "stockbalancereport.json"
+  "stockbalancereport.json",
+  "login.json"
 ]
