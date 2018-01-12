@@ -34,14 +34,5 @@
       "selector": ".nav.nav-tabs"
     }
   },
-  "connect": [
-    {
-      "match": [
-        "isLanding"
-      ],
-      "screens": [
-        "landing"
-      ]
-    }
-  ]
+  "connect": []
 }
