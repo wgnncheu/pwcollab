@@ -36,7 +36,9 @@
   },
   "connect": [
     {
-      "match": [],
+      "match": [
+        "isLanding"
+      ],
       "screens": [
         "landing"
       ]
