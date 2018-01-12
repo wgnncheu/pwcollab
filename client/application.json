@@ -4,5 +4,11 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "d0f7f744",
   "uiCommonVersion": "5.2.10",
-  "creatorId": "wgnncheu"
+  "creatorId": "wgnncheu",
+  "id": "pwcollab",
+  "previewImageURL": "/previews/d0f7f744-pwcollab/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/wgnncheu/pwcollab",
+  "creatorName": "Nicholas Cheung",
+  "sdks": []
 }
