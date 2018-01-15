@@ -132,7 +132,10 @@
       "type": "action"
     },
     "isStockBalanceReport": {
-      "type": "identifier"
+      "type": "identifier",
+      "selector": "h2",
+      "control": "property.innerText",
+      "selectContains": "Stock Balances Report"
     },
     "branch": {
       "type": "select",
