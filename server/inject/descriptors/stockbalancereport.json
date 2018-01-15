@@ -132,7 +132,7 @@
       "type": "action"
     },
     "isStockBalanceReport": {
-      "type": "action"
+      "type": "identifier"
     },
     "branch": {
       "type": "select",
