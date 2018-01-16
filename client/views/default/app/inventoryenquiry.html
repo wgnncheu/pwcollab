@@ -3,7 +3,7 @@
         <ion-nav-buttons side="left">
             <button class="button button-icon ion-navicon" data-comp-id="button.1"></button>
         </ion-nav-buttons>
-        <ion-nav-title data-comp-id="nav-title.1">Form Title</ion-nav-title>
+        <ion-nav-title data-comp-id="nav-title.1">Inventory Enquiry</ion-nav-title>
         <ion-nav-buttons side="right">
             <button class="button button-icon ion-home" data-comp-id="button.2"></button>
         </ion-nav-buttons>
@@ -11,39 +11,6 @@
     <ion-content class=" positive-bg" data-comp-id="ionic-content.1">
         <!--Form Section-->
         <!--Container 1-->
-        <div class="row" data-comp-id="row.1" style="margin: 0px;">
-            <div class="col" data-comp-id="column.1">
-                <div class=" light" data-comp-id="text.1"
-                    style="font-size: 16px; font-weight: normal; margin: 0% 0% 0% 2%;">Section One</div>
-            </div>
-        </div>
-        <div class="light-bg card" data-comp-id="div.1"
-            style="margin: 0% 4%; border-radius: 10px;">
-            <!--User Input-->
-            <label class="item item-input" data-comp-id="textInput.1">
-                <span class="input-label">Input Label</span>
-                <input ng-model="data.string" type="text">
-            </label>
-            <label class="item item-input" data-comp-id="textInput.2">
-                <span class="input-label">Input Label</span>
-                <input ng-model="data.string2" type="text">
-            </label>
-            <label class="item" data-comp-id="takePhoto.1"
-                ng-class="{'item-input item-button-right': style === 'control'}"
-                take-photo="control">
-                <span class="input-label" ng-if="style === 'control'">Add Attachment</span>
-                <button class="button button-icon" ng-if="style === 'control'">
-                    <i class="icon positive-icon ion-camera"></i>
-                </button>
-                <input disabled="" ng-if="style === 'control'" type="text">
-                <button class="button button-block button-positive nomargin"
-                    ng-if="style === 'button'">Take Photo</button>
-                <textarea class="not-visible"></textarea>
-            </label>
-            <!--User Input-->
-            <!--User Input-->
-            <!--User Input-->
-        </div>
         <!--Container 1-->
         <!--Form Section-->
         <include-page data-comp-id="includePage.1" name="" page-data="{}"></include-page>
@@ -52,23 +19,33 @@
         <!--Form Section-->
         <!--Form Section-->
         <!--Container 3-->
-        <div class="row" data-comp-id="row.2" style="margin: 2px 0px 0px;">
-            <div class="col" data-comp-id="column.2">
-                <div class=" light" data-comp-id="text.2"
-                    style="font-size: 16px; margin: 0% 0% 0% 2%;">Section Two</div>
-            </div>
-        </div>
         <div class=" card" data-comp-id="div.2"
             style="margin: 0% 4%; border-radius: 10px;">
             <ion-list data-comp-id="ionic-list.1">
                 <multiselect-list data-comp-id="multiselectList.1"
-                    ng-model="data.multiSelectData" select-class=" positive-icon">Input Label</multiselect-list>
+                    ng-model="data.multiSelectData" select-class=" positive-icon">Branch Code</multiselect-list>
                 <div class="row" data-comp-id="row.3"
                     style="border-top: 2px solid rgb(221, 221, 221); border-bottom: 1px solid rgb(221, 221, 221); padding: 0px;">
                     <div class="col" data-comp-id="column.3" style="padding: 0px;"></div>
                 </div>
                 <multiselect-list data-comp-id="multiselectList.2"
-                    ng-model="data.multiSelectData2" select-class=" positive-icon">Input Label</multiselect-list>
+                    ng-model="data.multiSelectData2" select-class=" positive-icon">Stock File</multiselect-list>
+                <label class="item item-input" data-comp-id="textInput.6">
+                    <span class="input-label">Part</span>
+                    <input type="text">
+                </label>
+                <label class="item item-input" data-comp-id="textInput.5">
+                    <span class="input-label">Product Group</span>
+                    <input type="text">
+                </label>
+                <label class="item item-input" data-comp-id="textInput.4">
+                    <span class="input-label">Vendor Code</span>
+                    <input type="text">
+                </label>
+                <label class="item item-input" data-comp-id="textInput.3">
+                    <span class="input-label">Vendor Part</span>
+                    <input type="text">
+                </label>
             </ion-list>
         </div>
         <!--Container 3-->
