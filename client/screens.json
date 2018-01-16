@@ -49,6 +49,13 @@
       "sourceScreenId": "app.formlarge.formlargecaptivating",
       "sourceAppId": "universaltemplates",
       "model": "stockbalancereport"
+    },
+    {
+      "id": "orderviewsearchcontrols",
+      "name": "orderviewsearchcontrols",
+      "sourceScreenId": "app.formlarge.formlargecaptivating",
+      "sourceAppId": "universaltemplates",
+      "model": "orderviewsearchcontrols"
     }
   ],
   "sourceAppId": "_blank",
