@@ -128,6 +128,12 @@
     },
     "submit": {
       "type": "action"
+    },
+    "isOrderView": {
+      "type": "identifier",
+      "selector": "h2",
+      "control": "exists",
+      "selectContains": "Order View"
     }
   },
   "connect": []
