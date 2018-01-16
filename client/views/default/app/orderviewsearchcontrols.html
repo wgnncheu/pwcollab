@@ -28,21 +28,11 @@
                 <span class="input-label">Input Label</span>
                 <input ng-model="data.string2" type="text">
             </label>
-            <label class="item" data-comp-id="takePhoto.1"
-                ng-class="{'item-input item-button-right': style === 'control'}"
-                take-photo="control">
-                <span class="input-label" ng-if="style === 'control'">Add Attachment</span>
-                <button class="button button-icon" ng-if="style === 'control'">
-                    <i class="icon positive-icon ion-camera"></i>
-                </button>
-                <input disabled="" ng-if="style === 'control'" type="text">
-                <button class="button button-block button-positive nomargin"
-                    ng-if="style === 'button'">Take Photo</button>
-                <textarea class="not-visible"></textarea>
-            </label>
             <!--User Input-->
             <!--User Input-->
             <!--User Input-->
+            <multiselect-list data-comp-id="multiselectList.1"
+                ng-model="data.multiSelectData" select-class=" positive-icon">Input Label</multiselect-list>
         </div>
         <!--Container 1-->
         <!--Form Section-->
@@ -55,8 +45,6 @@
         <div class=" card" data-comp-id="div.2"
             style="margin: 0% 4%; border-radius: 10px;">
             <ion-list data-comp-id="ionic-list.1">
-                <multiselect-list data-comp-id="multiselectList.1"
-                    ng-model="data.multiSelectData" select-class=" positive-icon">Input Label</multiselect-list>
                 <div class="row" data-comp-id="row.3"
                     style="border-top: 2px solid rgb(221, 221, 221); border-bottom: 1px solid rgb(221, 221, 221); padding: 0px;">
                     <div class="col" data-comp-id="column.3" style="padding: 0px;"></div>
