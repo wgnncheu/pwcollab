@@ -56,6 +56,13 @@
       "sourceScreenId": "app.formlarge.formlargecaptivating",
       "sourceAppId": "universaltemplates",
       "model": "orderviewsearchcontrols"
+    },
+    {
+      "id": "inventoryenquiry",
+      "name": "inventoryenquiry",
+      "sourceScreenId": "app.formlarge.formlargecaptivating",
+      "sourceAppId": "universaltemplates",
+      "model": "inventoryenquiry"
     }
   ],
   "sourceAppId": "_blank",
