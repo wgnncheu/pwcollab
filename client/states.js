@@ -78,14 +78,5 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.inventoryenquiry', {
-        views: {
-            app: {
-                controller: 'app_inventoryenquiry',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.inventoryenquiry');
-                }
-            }
-        }
     });
 });
