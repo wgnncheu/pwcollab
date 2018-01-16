@@ -136,5 +136,14 @@
       "selectContains": "Order View"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isOrderView"
+      ],
+      "screens": [
+        "orderviewsearchcontrols"
+      ]
+    }
+  ]
 }
