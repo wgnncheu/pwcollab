@@ -56,13 +56,6 @@
       "sourceScreenId": "app.formlarge.formlargecaptivating",
       "sourceAppId": "universaltemplates",
       "model": "orderviewsearchcontrols"
-    },
-    {
-      "id": "landing2",
-      "name": "landing2",
-      "sourceScreenId": "app.home.homecool",
-      "sourceAppId": "universaltemplates",
-      "model": "landing2"
     }
   ],
   "sourceAppId": "_blank",

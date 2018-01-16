@@ -78,14 +78,5 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.landing2', {
-        views: {
-            app: {
-                controller: 'app_landing2',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.landing2');
-                }
-            }
-        }
     });
 });
