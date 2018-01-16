@@ -69,5 +69,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.orderviewsearchcontrols', {
+        views: {
+            app: {
+                controller: 'app_orderviewsearchcontrols',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.orderviewsearchcontrols');
+                }
+            }
+        }
     });
 });
