@@ -127,7 +127,9 @@
       }
     },
     "submit": {
-      "type": "action"
+      "type": "action",
+      "selector": "#findButtonAngularJS",
+      "control": "action.button"
     },
     "isOrderView": {
       "type": "identifier",
