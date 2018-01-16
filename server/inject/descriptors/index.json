@@ -3,5 +3,6 @@
   "landing.json",
   "searchcontrols.json",
   "stockbalancereport.json",
-  "login.json"
+  "login.json",
+  "orderviewsearchcontrols.json"
 ]

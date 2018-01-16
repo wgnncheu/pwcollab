@@ -124,35 +124,11 @@
         "action": [
           "submit"
         ]
-      },
-      "selector": "http",
-      "control": "url"
+      }
     },
     "submit": {
       "type": "action"
-    },
-    "isStockBalanceReport": {
-      "type": "action"
-    },
-    "branch": {
-      "type": "select",
-      "selector": "[name=\"branch\"]",
-      "control": "select"
-    },
-    "scodes": {
-      "type": "select",
-      "selector": ".multiselect.dropdown-toggle.btn.btn-default",
-      "control": "select"
     }
   },
-  "connect": [
-    {
-      "match": [
-        "isStockBalanceReport"
-      ],
-      "screens": [
-        "stockbalancereport"
-      ]
-    }
-  ]
+  "connect": []
 }
