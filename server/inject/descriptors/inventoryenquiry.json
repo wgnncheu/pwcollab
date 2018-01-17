@@ -131,18 +131,38 @@
     },
     "branch": {
       "type": "select",
-      "selector": "body",
+      "selector": "[name=\"branch\"]",
       "control": "property.innerText"
     },
     "scodes": {
       "type": "select",
-      "selector": "body",
+      "selector": "[name=\"scodes\"]",
       "control": "property.innerText"
     },
     "isInventoryEnquiry": {
       "type": "string",
-      "selector": "body",
+      "selector": "h2",
       "control": "property.innerText"
+    },
+    "prtnum": {
+      "type": "string",
+      "selector": "[name=\"prtnum\"]",
+      "control": "text"
+    },
+    "prdgrp": {
+      "type": "string",
+      "selector": "[name=\"prdgrp\"]",
+      "control": "text"
+    },
+    "vendor": {
+      "type": "string",
+      "selector": "[name=\"prdgrp\"]",
+      "control": "text"
+    },
+    "altprt": {
+      "type": "string",
+      "selector": "[name=\"altprt\"]",
+      "control": "text"
     }
   },
   "connect": [
