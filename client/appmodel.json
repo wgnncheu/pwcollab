@@ -686,6 +686,15 @@
       },
       "submit": {
         "type": "action"
+      },
+      "branch": {
+        "type": "select"
+      },
+      "scodes": {
+        "type": "select"
+      },
+      "isInventoryEnquiry": {
+        "type": "string"
       }
     }
   }

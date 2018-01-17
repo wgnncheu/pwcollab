@@ -138,6 +138,11 @@
       "type": "select",
       "selector": "body",
       "control": "property.innerText"
+    },
+    "isInventoryEnquiry": {
+      "type": "string",
+      "selector": "body",
+      "control": "property.innerText"
     }
   },
   "connect": [
