@@ -569,9 +569,6 @@
       "scodes": {
         "type": "select"
       },
-      "isInventoryEnquiry": {
-        "type": "string"
-      },
       "prtnum": {
         "type": "string"
       },
