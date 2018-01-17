@@ -144,7 +144,8 @@
     "isInventoryEnquiry": {
       "type": "string",
       "selector": "h2",
-      "control": "exists"
+      "control": "exists",
+      "selectContains": "Inventory Enquiry"
     },
     "prtnum": {
       "type": "string",
