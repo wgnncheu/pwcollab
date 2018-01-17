@@ -4,5 +4,6 @@
   "searchcontrols.json",
   "stockbalancereport.json",
   "login.json",
-  "orderviewsearchcontrols.json"
+  "orderviewsearchcontrols.json",
+  "inventoryenquiry.json"
 ]
