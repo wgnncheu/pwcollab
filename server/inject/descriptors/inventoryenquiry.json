@@ -142,7 +142,7 @@
     "isInventoryEnquiry": {
       "type": "string",
       "selector": "h2",
-      "control": "property.innerText"
+      "control": "exists"
     },
     "prtnum": {
       "type": "string",
