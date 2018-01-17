@@ -46,7 +46,9 @@
   },
   "connect": [
     {
-      "match": [],
+      "match": [
+        "isInventoryEnquiry"
+      ],
       "screens": [
         "inventoryenquiry"
       ]
