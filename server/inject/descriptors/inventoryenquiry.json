@@ -128,6 +128,16 @@
     },
     "submit": {
       "type": "action"
+    },
+    "branch": {
+      "type": "select",
+      "selector": "body",
+      "control": "property.innerText"
+    },
+    "scodes": {
+      "type": "select",
+      "selector": "body",
+      "control": "property.innerText"
     }
   },
   "connect": [
