@@ -132,12 +132,12 @@
     "branch": {
       "type": "select",
       "selector": "[name=\"branch\"]",
-      "control": "property.innerText"
+      "control": "select"
     },
     "scodes": {
       "type": "select",
       "selector": "[name=\"scodes\"]",
-      "control": "property.innerText"
+      "control": "select"
     },
     "isInventoryEnquiry": {
       "type": "string",
