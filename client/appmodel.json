@@ -695,6 +695,18 @@
       },
       "isInventoryEnquiry": {
         "type": "string"
+      },
+      "prtnum": {
+        "type": "string"
+      },
+      "prdgrp": {
+        "type": "string"
+      },
+      "vendor": {
+        "type": "string"
+      },
+      "altprt": {
+        "type": "string"
       }
     }
   }
