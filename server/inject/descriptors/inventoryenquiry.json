@@ -18,10 +18,7 @@
       "control": "select"
     },
     "isInventoryEnquiry": {
-      "type": "identifier",
-      "selector": "h2",
-      "selectContains": "Inventory Enquiry",
-      "control": "exists"
+      "type": "string"
     },
     "prtnum": {
       "type": "string",
