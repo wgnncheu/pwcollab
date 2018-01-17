@@ -61,8 +61,7 @@
       "id": "inventoryenquiry",
       "name": "inventoryenquiry",
       "sourceScreenId": "app.formlarge.formlargecaptivating",
-      "sourceAppId": "universaltemplates",
-      "model": "inventoryenquiry_2"
+      "sourceAppId": "universaltemplates"
     }
   ],
   "sourceAppId": "_blank",
