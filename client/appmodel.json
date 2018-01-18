@@ -564,7 +564,12 @@
         "type": "action"
       },
       "branch": {
-        "type": "select"
+        "type": "select",
+        "update": {
+          "type": "change",
+          "dynamic": true,
+          "timeout": 5000
+        }
       },
       "scodes": {
         "type": "select"

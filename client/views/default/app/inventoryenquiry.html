@@ -18,7 +18,8 @@
         <div class="light-bg card" data-comp-id="div.1"
             style="margin: 0% 4%; border-radius: 10px;">
             <!--User Input-->
-            <select-list data-comp-id="selectList.1" ng-model="data.branch">Branch Code</select-list>
+            <select-list data-comp-id="selectList.1" ng-model="data.branch"
+                powwow-change="{dynamic:true,timeout:5000}">Branch Code</select-list>
             <select-list data-comp-id="selectList.2" ng-model="data.scodes">Stock File</select-list>
             <label class="item item-input" data-comp-id="textInput.1">
                 <span class="input-label">Part</span>
