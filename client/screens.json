@@ -63,6 +63,13 @@
       "sourceScreenId": "app.formlarge.formlargecaptivating",
       "sourceAppId": "universaltemplates",
       "model": "inventoryenquiry"
+    },
+    {
+      "id": "inventoryenquirygrid",
+      "name": "inventoryenquirygrid",
+      "sourceScreenId": "app.tableview.tabledatacaptivating",
+      "sourceAppId": "universaltemplates",
+      "model": "inventoryenquirygrid"
     }
   ],
   "sourceAppId": "_blank",

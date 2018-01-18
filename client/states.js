@@ -87,5 +87,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.inventoryenquirygrid', {
+        views: {
+            app: {
+                controller: 'app_inventoryenquirygrid',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.inventoryenquirygrid');
+                }
+            }
+        }
     });
 });
