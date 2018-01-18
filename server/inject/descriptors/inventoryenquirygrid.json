@@ -47,7 +47,9 @@
   },
   "connect": [
     {
-      "match": [],
+      "match": [
+        "listItems.isInventoryEnquiryGrid"
+      ],
       "screens": [
         "inventoryenquirygrid"
       ]
