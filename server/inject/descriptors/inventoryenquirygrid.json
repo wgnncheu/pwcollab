@@ -33,7 +33,11 @@
           }
         }
       },
-      "label": "ListItems"
+      "label": "ListItems",
+      "selectorAll": "[kendo-grid=\"widgetListAtlasParts\"]",
+      "frameSelector": [
+        null
+      ]
     }
   },
   "connect": [
