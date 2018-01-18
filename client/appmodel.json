@@ -601,16 +601,25 @@
               "type": "string",
               "label": "description"
             },
-            "name": {
-              "type": "string",
-              "label": "ListItemName"
-            },
             "date": {
               "type": "string",
               "label": "Date - Time"
             },
             "action": {
               "type": "action"
+            },
+            "prtnum": {
+              "type": "string"
+            },
+            "avqty": {
+              "type": "string"
+            },
+            "supnam": {
+              "type": "string",
+              "label": "ListItemName"
+            },
+            "hldqty": {
+              "type": "string"
             }
           }
         },
