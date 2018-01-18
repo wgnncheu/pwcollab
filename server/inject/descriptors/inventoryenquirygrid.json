@@ -34,7 +34,7 @@
         }
       },
       "label": "ListItems",
-      "selectorAll": "table",
+      "selectorAll": "#widgetListAtlasParts > div > div.k-grid-content.k-auto-scrollable > table",
       "frameSelector": [
         null
       ]
