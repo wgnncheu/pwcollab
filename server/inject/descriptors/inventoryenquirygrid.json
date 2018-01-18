@@ -34,7 +34,7 @@
         }
       },
       "label": "ListItems",
-      "selectorAll": "[kendo-grid=\"widgetListAtlasParts\"]",
+      "selectorAll": "table",
       "frameSelector": [
         null
       ]
