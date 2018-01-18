@@ -33,7 +33,7 @@
           },
           "isInventoryEnquiryGrid": {
             "type": "identifier",
-            "selector": "tbody",
+            "selector": "#widgetListAtlasParts",
             "control": "exists"
           }
         }
