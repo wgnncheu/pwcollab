@@ -1,0 +1,47 @@
+{
+  "type": "object",
+  "comment": "TableView",
+  "properties": {
+    "listItems": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "description": {
+            "type": "string",
+            "label": "description"
+          },
+          "date": {
+            "type": "string",
+            "label": "Date - Time"
+          },
+          "action": {
+            "type": "action"
+          },
+          "prtnum": {
+            "type": "string"
+          },
+          "avqty": {
+            "type": "string"
+          },
+          "supnam": {
+            "type": "string",
+            "label": "ListItemName"
+          },
+          "hldqty": {
+            "type": "string"
+          }
+        }
+      },
+      "label": "ListItems"
+    }
+  },
+  "connect": [
+    {
+      "match": [],
+      "screens": [
+        "inventoryenquirygrid"
+      ]
+    }
+  ]
+}
