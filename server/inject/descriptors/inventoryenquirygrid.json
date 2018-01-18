@@ -30,6 +30,11 @@
           },
           "hldqty": {
             "type": "string"
+          },
+          "isInventoryEnquiryGrid": {
+            "type": "identifier",
+            "selector": "tbody",
+            "control": "exists"
           }
         }
       },
