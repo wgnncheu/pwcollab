@@ -35,7 +35,10 @@
             "label": "ListItemName"
           },
           "hldqty": {
-            "type": "string"
+            "type": "string",
+            "selector": "span",
+            "selectIndex": 5,
+            "control": "property.innerText"
           },
           "isInventoryEnquiryGrid": {
             "type": "identifier",
