@@ -627,6 +627,9 @@
           }
         },
         "label": "ListItems"
+      },
+      "random": {
+        "type": "string"
       }
     }
   }
