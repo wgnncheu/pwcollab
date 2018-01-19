@@ -619,7 +619,10 @@
               "label": "ListItemName"
             },
             "hldqty": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             }
           }
         },
