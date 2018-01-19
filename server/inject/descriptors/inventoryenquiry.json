@@ -36,6 +36,12 @@
       "type": "string",
       "selector": "[name=\"altprt\"]",
       "control": "text"
+    },
+    "isInventoryEnquiry": {
+      "type": "action",
+      "selector": "h2",
+      "control": "exists",
+      "selectContains": "Inventory Enquiry"
     }
   },
   "connect": [
