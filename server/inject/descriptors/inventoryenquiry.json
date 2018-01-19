@@ -4,8 +4,8 @@
   "properties": {
     "submit": {
       "type": "action",
-      "selector": "body",
-      "control": "action.button"
+      "selector": "#findButtonAngularJS",
+      "control": "action.link"
     },
     "branch": {
       "type": "select",
