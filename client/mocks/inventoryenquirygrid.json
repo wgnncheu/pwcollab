@@ -1,34 +1,85 @@
 {
-  "listItems": [
-    {
-      "description": "Description Text, lorem ipsum dolor sit amet.",
-      "date": "01/04/2017",
-      "supnam": "List Name One"
-    },
-    {
-      "description": "consectetur adipiscing elit, sed do eiusmod tempor",
-      "date": "01/02/2017",
-      "supnam": "Second List Name"
-    },
-    {
-      "description": "incididunt ut labore et dolore magna aliqua",
-      "date": "12/18/2016",
-      "supnam": "List Name Three"
-    },
-    {
-      "description": "Ut enim ad minim veniam, quis nostrud exercitation",
-      "date": "12/05/2016",
-      "supnam": "Fourth List Name"
-    },
-    {
-      "description": "ullamco laboris nisi ut aliquip ex ea commodo consequat",
-      "date": "11/13/2016",
-      "supnam": "List Name Five"
-    },
-    {
-      "description": "Duis aute irure dolor in reprehenderit",
-      "date": "11/04/2016",
-      "supnam": "Sixth List Name"
-    }
-  ]
+ "listItems": [
+  {
+   "$i": 0,
+   "description": "CAP,CHIP CERAMIC 2.0PF +/-0.1P",
+   "date": "2016-03-15 00:00:00",
+   "prtnum": "GBLH-035-0004-001",
+   "avqty": "0",
+   "hldqty": "14513"
+  },
+  {
+   "$i": 1,
+   "description": "Primary Device Label",
+   "date": "2017-03-14 00:00:00",
+   "prtnum": "GBLH-177-0024-000",
+   "avqty": "15282",
+   "hldqty": "0"
+  },
+  {
+   "$i": 2,
+   "description": "CAP,CHIP CERAMIC 1.0UF 20% X5R 6.3V ROHS",
+   "date": "2016-03-15 00:00:00",
+   "prtnum": "GBLH-039-0003-000",
+   "avqty": "0",
+   "hldqty": "1726"
+  },
+  {
+   "$i": 3,
+   "description": "SWITCH,SLIDE DPDT STRAIGHT S",
+   "date": "2017-03-03 00:00:00",
+   "prtnum": "GBLH-146-0001-000",
+   "avqty": "446",
+   "hldqty": "22400"
+  },
+  {
+   "$i": 4,
+   "description": "PACKAGING , BUBBLE BAG , S21",
+   "date": "2017-03-14 00:00:00",
+   "prtnum": "GBLH-178-0006-000",
+   "avqty": "11174",
+   "hldqty": "0"
+  },
+  {
+   "$i": 5,
+   "description": "SWITCH,DOME SPST DIA=8.5MM H=.024 400G SS 30PC SHE",
+   "date": "2017-03-14 00:00:00",
+   "prtnum": "GBLH-146-0000-000",
+   "avqty": "18420",
+   "hldqty": "5220"
+  },
+  {
+   "$i": 6,
+   "description": "Carton, Unit, Folding, STE",
+   "date": "2017-03-14 00:00:00",
+   "prtnum": "GBLH-175-0027-000",
+   "avqty": "6924",
+   "hldqty": "0"
+  },
+  {
+   "$i": 7,
+   "description": "CAP,CHIP CERAMIC 10UF 20% X5R 4V ROHS",
+   "date": "2017-03-03 00:00:00",
+   "prtnum": "GBLH-039-0002-000",
+   "avqty": "52275",
+   "hldqty": "0"
+  },
+  {
+   "$i": 8,
+   "description": "Label, master carton, S22",
+   "date": "2017-03-14 00:00:00",
+   "prtnum": "GBLH-177-0028-000",
+   "avqty": "130",
+   "hldqty": "0"
+  },
+  {
+   "$i": 9,
+   "description": "0201,SMD,100K Ohm,0.050",
+   "date": "2016-03-15 00:00:00",
+   "prtnum": "GBLH-139-0000-001",
+   "avqty": "0",
+   "hldqty": "8892"
+  }
+ ],
+ "random": "Inventory Enquiry "
 }
