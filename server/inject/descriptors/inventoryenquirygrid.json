@@ -59,8 +59,7 @@
     "isInventoryEnquiry": {
       "type": "identifier",
       "selector": "#widgetListAtlasParts",
-      "control": "exists",
-      "selectContains": "Inventory Enquiry"
+      "control": "exists"
     }
   },
   "connect": [
