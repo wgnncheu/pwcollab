@@ -22,7 +22,7 @@
             "type": "string",
             "selector": "span",
             "control": "property.className",
-            "selectIndex": 2
+            "selectIndex": 3
           },
           "avqty": {
             "type": "string"
