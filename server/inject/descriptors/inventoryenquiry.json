@@ -17,12 +17,6 @@
       "selector": "[name=\"scodes\"]",
       "control": "select"
     },
-    "isInventoryEnquiry": {
-      "type": "identifier",
-      "selector": "h2",
-      "control": "exists",
-      "selectContains": "Inventory Enquiry"
-    },
     "prtnum": {
       "type": "string",
       "selector": "[name=\"prtnum\"]",
