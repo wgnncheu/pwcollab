@@ -19,7 +19,9 @@
             "type": "action"
           },
           "prtnum": {
-            "type": "string"
+            "type": "string",
+            "selector": "span",
+            "control": "property.innerText"
           },
           "avqty": {
             "type": "string"
