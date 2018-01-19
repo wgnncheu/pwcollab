@@ -40,7 +40,7 @@
         }
       },
       "label": "ListItems",
-      "selectorAll": "tbody",
+      "selectorAll": "table",
       "frameSelector": [
         null
       ]
