@@ -40,10 +40,7 @@
         }
       },
       "label": "ListItems",
-      "selectorAll": "#widgetListAtlasParts > div > div.k-grid-content.k-auto-scrollable > table > tbody > tr.ng-scope.k-state-selected",
-      "frameSelector": [
-        null
-      ]
+      "selectorAll": "#gridDiv > div > div > div > div"
     },
     "random": {
       "type": "string",
