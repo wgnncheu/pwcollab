@@ -40,7 +40,7 @@
         }
       },
       "label": "ListItems",
-      "selectorAll": "#gridDiv > div > div"
+      "selectorAll": "#widgetListAtlasParts > div > div.k-grid-content.k-auto-scrollable > table"
     },
     "random": {
       "type": "string",
