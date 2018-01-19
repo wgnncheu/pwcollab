@@ -9,7 +9,10 @@
         "properties": {
           "description": {
             "type": "string",
-            "label": "description"
+            "label": "description",
+            "selector": "span",
+            "selectIndex": 14,
+            "control": "property.innerText"
           },
           "date": {
             "type": "string",
