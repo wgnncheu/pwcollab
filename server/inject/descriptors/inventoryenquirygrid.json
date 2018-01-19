@@ -40,7 +40,7 @@
         }
       },
       "label": "ListItems",
-      "selectorAll": "#widgetListAtlasParts > div > div.k-grid-content.k-auto-scrollable > table"
+      "selectorAll": "#widgetListAtlasParts > div > div.k-grid-content.k-auto-scrollable > table > tbody > tr:nth-child(1)"
     },
     "random": {
       "type": "string",
