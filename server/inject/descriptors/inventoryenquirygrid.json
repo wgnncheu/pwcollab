@@ -40,7 +40,7 @@
         }
       },
       "label": "ListItems",
-      "selectorAll": "#gridDiv > div > div > div > div"
+      "selectorAll": "#gridDiv > div > div > div"
     },
     "random": {
       "type": "string",
