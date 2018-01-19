@@ -44,6 +44,11 @@
       "frameSelector": [
         null
       ]
+    },
+    "random": {
+      "type": "string",
+      "selector": "h2",
+      "control": "property.innerText"
     }
   },
   "connect": [
