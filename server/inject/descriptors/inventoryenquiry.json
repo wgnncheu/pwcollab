@@ -38,7 +38,7 @@
       "control": "text"
     },
     "isInventoryEnquiry": {
-      "type": "action",
+      "type": "identifier",
       "selector": "h2",
       "control": "exists",
       "selectContains": "Inventory Enquiry"
