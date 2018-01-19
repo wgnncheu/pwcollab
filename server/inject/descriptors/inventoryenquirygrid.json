@@ -21,7 +21,7 @@
           "prtnum": {
             "type": "string",
             "selector": "span",
-            "control": "property.innerText"
+            "control": "property.className"
           },
           "avqty": {
             "type": "string"
