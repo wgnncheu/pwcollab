@@ -58,8 +58,9 @@
     },
     "isInventoryEnquiry": {
       "type": "identifier",
-      "selector": "#widgetListAtlasParts",
-      "control": "exists"
+      "selector": "h2",
+      "control": "exists",
+      "selectContains": "Inventory Enquiry"
     }
   },
   "connect": [
