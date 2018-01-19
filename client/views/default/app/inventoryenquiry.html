@@ -71,5 +71,89 @@
                     style="border-radius: 10px;">Submit</button>
             </div>
         </div>
+        <ion-list data-comp-id="ionic-list.1">
+            <div class=" light-bg" data-comp-id="div.2" ng-repeat="item in data.listItems"
+                style="margin: 5px 10px; border-radius: 10px;">
+                <div class="row" data-comp-id="row.3"
+                    ng-click="app.action('tableview', 'data.listItems[item].action', this)"
+                    style="margin: 0px; padding: 0px;">
+                    <div class="col col-10 text-center" data-comp-id="column.3"
+                        style="padding: 10px 5px;">
+                        <i class="icon ion-information-circled positive" data-comp-id="icon.1"
+                            style="font-size: 24px;"></i>
+                    </div>
+                    <div class="col col-66" data-comp-id="column.4" style="padding: 10px;">
+                        <div class=" energized" data-comp-id="text.1" ng-bind="item.prtnum"
+                            style="font-size: 20px; line-height: 28px;"></div>
+                        <div class=" dark" data-comp-id="text.2" ng-bind="item.description"
+                            style="font-size: 16px; line-height: 24px;">Some text</div>
+                    </div>
+                    <div class="col" data-comp-id="column.5">
+                        <div data-comp-id="text.3">Avail Qty</div>
+                        <div class=" dark" data-comp-id="text.4" ng-bind="item.avqty"
+                            style="font-size: 12px;">Some text</div>
+                        <div data-comp-id="text.5">Hold Qty</div>
+                        <div data-comp-id="text.6" ng-bind="item.hldqty">Some text</div>
+                    </div>
+                </div>
+            </div>
+            <div class=" light-bg" data-comp-id="div.3" ng-repeat="item in data.listItems"
+                style="margin: 5px 10px; border-radius: 10px;">
+                <div class="row" data-comp-id="row.4"
+                    ng-click="app.action('tableview', 'data.listItems[item].action', this)"
+                    style="margin: 0px; padding: 0px;">
+                    <div class="col col-10 text-center" data-comp-id="column.6"
+                        style="padding: 10px 5px;">
+                        <i class="icon ion-information-circled positive" data-comp-id="icon.2"
+                            style="font-size: 24px;"></i>
+                    </div>
+                    <div class="col col-66" data-comp-id="column.7" style="padding: 10px;">
+                        <div class=" energized" data-comp-id="text.7" ng-bind="item.prtnum"
+                            style="font-size: 20px; line-height: 28px;"></div>
+                        <div class=" dark" data-comp-id="text.8" ng-bind="item.description"
+                            style="font-size: 16px; line-height: 24px;">Some text</div>
+                    </div>
+                    <div class="col" data-comp-id="column.8">
+                        <div data-comp-id="text.9">Avail Qty</div>
+                        <div class=" dark" data-comp-id="text.10" ng-bind="item.avqty"
+                            style="font-size: 12px;">Some text</div>
+                        <div data-comp-id="text.11">Hold Qty</div>
+                        <div data-comp-id="text.12" ng-bind="item.hldqty">Some text</div>
+                    </div>
+                </div>
+            </div>
+            <div data-comp-id="div.4" style="border-radius: 10px; margin: 5px 10px;">
+                <div class="row" data-comp-id="row.5">
+                    <div class="col" data-comp-id="column.9"></div>
+                    <div class="col" data-comp-id="column.10"></div>
+                    <div class="col" data-comp-id="column.11"></div>
+                </div>
+            </div>
+        </ion-list>
+        <div class=" light-bg" data-comp-id="div.5" ng-repeat="item in data.listItems"
+            style="margin: 5px 10px; border-radius: 10px;">
+            <div class="row" data-comp-id="row.6"
+                ng-click="app.action('tableview', 'data.listItems[item].action', this)"
+                style="margin: 0px; padding: 0px;">
+                <div class="col col-10 text-center" data-comp-id="column.12"
+                    style="padding: 10px 5px;">
+                    <i class="icon ion-information-circled positive" data-comp-id="icon.3"
+                        style="font-size: 24px;"></i>
+                </div>
+                <div class="col col-66" data-comp-id="column.13" style="padding: 10px;">
+                    <div class=" energized" data-comp-id="text.13" ng-bind="item.prtnum"
+                        style="font-size: 20px; line-height: 28px;"></div>
+                    <div class=" dark" data-comp-id="text.14" ng-bind="item.description"
+                        style="font-size: 16px; line-height: 24px;">Some text</div>
+                </div>
+                <div class="col" data-comp-id="column.14">
+                    <div data-comp-id="text.15">Avail Qty</div>
+                    <div class=" dark" data-comp-id="text.16" ng-bind="item.avqty"
+                        style="font-size: 12px;">Some text</div>
+                    <div data-comp-id="text.17">Hold Qty</div>
+                    <div data-comp-id="text.18" ng-bind="item.hldqty">Some text</div>
+                </div>
+            </div>
+        </div>
     </ion-content>
 </ion-view>
