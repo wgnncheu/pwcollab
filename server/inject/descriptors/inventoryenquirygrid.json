@@ -25,7 +25,10 @@
             "selectIndex": 3
           },
           "avqty": {
-            "type": "string"
+            "type": "string",
+            "selector": "span",
+            "selectIndex": 4,
+            "control": "property.innerText"
           },
           "supnam": {
             "type": "string",
