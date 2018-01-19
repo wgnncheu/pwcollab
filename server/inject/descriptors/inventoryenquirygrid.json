@@ -11,7 +11,7 @@
             "type": "string",
             "label": "description",
             "selector": "span",
-            "selectIndex": 14,
+            "selectIndex": 13,
             "control": "property.innerText"
           },
           "date": {
